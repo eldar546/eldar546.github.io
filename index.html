@@ -5,70 +5,57 @@
     <title>Мой сервер Minecraft</title>
     <style>
         body { 
-            /* Ссылка на картинку фона. ВСТАВЬ ТУДА ССЫЛКУ, КОТОРУЮ СКОПИРОВАЛ */
-            background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
-                        url('https://cdn.discordapp.com/attachments/1510546563263365193/1517131340997197874/image.png?ex=6a352a2a&is=6a33d8aa&hm=e38374d5c3820b51a9ca2b6a0a3cad68e2080400793b89a89961601e1695d2f4&'); 
-            
-            /* Эти настройки делают фон красивым на весь экран */
+            background: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)), 
+                        url('ЗДЕСЬ_ТВОЯ_ССЫЛКА_НА_КАРТИНКУ'); 
             background-size: cover;
             background-position: center;
             background-attachment: fixed;
             background-repeat: no-repeat;
-            
             color: white; 
             text-align: center; 
-            font-family: 'Segoe UI', sans-serif; 
-            padding-top: 150px; 
+            font-family: 'Segoe UI', Tahoma, sans-serif; 
+            padding-top: 50px; 
             margin: 0;
-            height: 100vh;
+            min-height: 100vh;
         }
-        
-        h1 { 
-            font-size: 3.5em; 
-            text-shadow: 2px 2px 10px #000; 
-            margin-bottom: 5px;
-        }
-        
-        p { 
-            font-size: 1.2em; 
-            margin-top: 5px;
-            text-shadow: 1px 1px 5px #000;
-        }
-
+        h1 { font-size: 3em; text-shadow: 0 4px 15px rgba(0,0,0,0.8); }
         .button { 
-            background: #ff0000; 
-            padding: 15px 30px; 
-            color: white; 
-            text-decoration: none; 
-            border-radius: 50px; 
-            font-weight: bold; 
-            display: inline-block; 
-            margin: 10px; 
-            font-size: 18px;
+            background: #ff0000; padding: 15px 30px; color: white; text-decoration: none; 
+            border-radius: 50px; font-weight: bold; display: inline-block; margin: 10px;
             transition: 0.3s;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
         }
-        
-        .button:hover { 
-            transform: scale(1.1); 
-            background: #cc0000; 
-            box-shadow: 0 6px 20px rgba(0,0,0,0.5);
-        }
-        
+        .button:hover { transform: scale(1.1); background: #cc0000; }
         .button-bonus { background: #27ae60; }
-        .button-bonus:hover { background: #219150; }
         
-        div.buttons-container { margin-top: 50px; }
+        .rules-box {
+            background: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            border-radius: 15px;
+            max-width: 600px;
+            margin: 40px auto;
+            text-align: left;
+        }
+        ul { list-style-type: none; padding: 0; }
+        li { margin-bottom: 10px; border-bottom: 1px solid #444; padding-bottom: 5px; }
     </style>
 </head>
 <body>
     <h1>Добро пожаловать на мой сервер!</h1>
-    
-    <p>Сервер скоро открывается!</p>
+    <p>Сервер скоро открывается! Готовимся к приключениям.</p>
     
     <div class="buttons-container">
-        <a href="https://www.youtube.com/@LEGACYWORLD-v6d" class="button">Наш YouTube канал</a>
-        <a href="#" class="button button-bonus">Забрать бонус</a>
+        <a href="ССЫЛКА_НА_ЮТУБ" class="button">Наш YouTube канал</a>
+        <a href="#" class="button button-bonus">Забрать ежедневный бонус</a>
+    </div>
+    <div class="rules-box">
+        <h2 style="text-align: center;">Правила сервера:</h2>
+        <ul>
+            <li>1. Не гриферить чужие постройки.</li>
+            <li>2. Не использовать читы и стороннее ПО.</li>
+            <li>3. Уважать игроков и администрацию.</li>
+            <li>4. Не спамить в чате.</li>
+            <li>5. Получай удовольствие от игры!</li>
+        </ul>
     </div>
 </body>
 </html>
