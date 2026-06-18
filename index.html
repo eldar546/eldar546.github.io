@@ -5,33 +5,70 @@
     <title>Мой сервер Minecraft</title>
     <style>
         body { 
-            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://wallpaperaccess.com/full/2212204.jpg'); 
+            /* Ссылка на картинку фона. ВСТАВЬ ТУДА ССЫЛКУ, КОТОРУЮ СКОПИРОВАЛ */
+            background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
+                        url('https://cdn.discordapp.com/attachments/1510546563263365193/1517131340997197874/image.png?ex=6a352a2a&is=6a33d8aa&hm=e38374d5c3820b51a9ca2b6a0a3cad68e2080400793b89a89961601e1695d2f4&'); 
+            
+            /* Эти настройки делают фон красивым на весь экран */
             background-size: cover;
             background-position: center;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            
             color: white; 
             text-align: center; 
-            font-family: Arial, sans-serif; 
-            padding-top: 100px; 
+            font-family: 'Segoe UI', sans-serif; 
+            padding-top: 150px; 
             margin: 0;
             height: 100vh;
         }
+        
+        h1 { 
+            font-size: 3.5em; 
+            text-shadow: 2px 2px 10px #000; 
+            margin-bottom: 5px;
+        }
+        
+        p { 
+            font-size: 1.2em; 
+            margin-top: 5px;
+            text-shadow: 1px 1px 5px #000;
+        }
+
         .button { 
             background: #ff0000; 
             padding: 15px 30px; 
             color: white; 
             text-decoration: none; 
-            border-radius: 5px; 
+            border-radius: 50px; 
             font-weight: bold; 
             display: inline-block; 
-            margin-top: 20px; 
+            margin: 10px; 
             font-size: 18px;
+            transition: 0.3s;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
         }
+        
+        .button:hover { 
+            transform: scale(1.1); 
+            background: #cc0000; 
+            box-shadow: 0 6px 20px rgba(0,0,0,0.5);
+        }
+        
+        .button-bonus { background: #27ae60; }
+        .button-bonus:hover { background: #219150; }
+        
+        div.buttons-container { margin-top: 50px; }
     </style>
 </head>
 <body>
     <h1>Добро пожаловать на мой сервер!</h1>
-    <p>IP сервера: <b>play.server.ru</b></p>
     
-    <a href="https://www.youtube.com/@LEGACYWORLD-v6d" class="button">Наш YouTube канал</a>
+    <p>Сервер скоро открывается!</p>
+    
+    <div class="buttons-container">
+        <a href="https://www.youtube.com/@LEGACYWORLD-v6d" class="button">Наш YouTube канал</a>
+        <a href="#" class="button button-bonus">Забрать бонус</a>
+    </div>
 </body>
 </html>
